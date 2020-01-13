@@ -66,9 +66,13 @@ def ES():
         B3s = str(B3)
         C3s = str(C3)
         print("\nEquation: "+B3s+"y = "+C3s)
-        B1B = C3/B3
+        BC1 = C3/B3
+        BC1s = str(BC1)
+        print("\nEquation: y = "+BC1s)
+        B1B = B1*BC1
         B1Bs = str(B1B)
-        print("\nEquation: y = "+B1Bs)
+        print("\nEquation: "+A1s+"x + "+B1Bs+" = "+C1s)
+
         start()
 
     elif B1 == -B2:
